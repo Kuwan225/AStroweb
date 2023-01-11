@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button/Button";
+import ISS from "/image/satelite2.png";
 
 const IssTracker = () => {
   return (
-    <div>
+    <div
+      style={{
+        position: "relative",
+      }}
+    >
       <div
         style={{
           gap: "10px",

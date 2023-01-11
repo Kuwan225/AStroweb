@@ -6,6 +6,7 @@ import LandingView from "./Partials/LandingView";
 import Planets from "./Partials/Planets";
 import Sun from "/image/sun.png";
 import EarthV2 from "/image/earthv2.png";
+import ISS from "/image/satelite2.png";
 
 const Home = () => {
   return (
@@ -65,6 +66,16 @@ const Home = () => {
             paddingTop: "130px",
           }}
         >
+          <img
+            style={{
+              position: "absolute",
+              bottom: "0px",
+              left: "220px",
+              zIndex: 10,
+            }}
+            src={ISS}
+            height="230px"
+          />
           <img
             src={Sun}
             alt=""
