@@ -1,47 +1,45 @@
 .footer {
-    width: 100vw;
-    height: 100%;
-    background-color: #0466C8;
-    padding: 45px 75px;
-    color: white;
-
+  height: 100%;
+  background-color: #0466c8;
+  padding: 45px 75px;
+  color: white;
 }
 
 .footer .logo {
-    display: flex;
-    color: white;
-    gap: 15px;
+  display: flex;
+  color: white;
+  gap: 15px;
 }
 
 .footer .logo img {
-    height: 64px;
+  height: 64px;
 }
 
 .footer .info {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .footer .info img {
-    height: 20px;
+  height: 20px;
 }
 .footer .info p {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .footer .info .item {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 20px 0px;
 }
 
 .underFooter {
-    background-color: white;
-    padding: 15px 120px;
+  background-color: white;
+  padding: 15px 120px;
 }
 
-.underFooter .copyright{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.underFooter .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

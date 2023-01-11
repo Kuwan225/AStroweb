@@ -41,10 +41,9 @@ const LandingView = () => {
           style={{
             position: "absolute",
             height: "65%",
-            bottom: scroll >= 20 ? scroll : "20px",
+            bottom: scroll / 5,
             right: "200px",
             zIndex: "-11",
-            transition: "0.5s",
           }}
           src={StarBg}
           alt=""

@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "../../../components/CardAstonot/Card";
 import Rocket from "/image/rocket2.png";
 import Astronot from "/image/astronotBro2.png";
 
 const AstronotList = () => {
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY);
+    });
+  });
   return (
     <div
       style={{
@@ -16,8 +23,8 @@ const AstronotList = () => {
         height={"400px"}
         style={{
           position: "absolute",
-          top: "-200px",
-          left: "0px",
+          top: -200,
+          left: scroll / 20,
         }}
       />
       <img

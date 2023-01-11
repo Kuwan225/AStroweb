@@ -14,6 +14,7 @@ const Planets = () => {
         minHeight: "100vh",
         padding: "50px 150px",
       }}
+      id="planet"
     >
       <ScrolNav />
       <div>
